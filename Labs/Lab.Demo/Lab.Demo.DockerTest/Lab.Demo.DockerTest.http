@@ -1,0 +1,12 @@
+@Lab.Demo.DockerTest_HostAddress = https://localhost:32771
+
+GET {{Lab.Demo.DockerTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{Lab.Demo.DockerTest_HostAddress}}/healthz/
+Accept: application/json
+
+###
