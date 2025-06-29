@@ -1,0 +1,31 @@
+@Lab.Demo.Gateway_HostAddress = https://localhost:7000
+
+GET {{Lab.Demo.Gateway_HostAddress}}/api/products/
+Accept: application/json
+
+###
+
+
+GET {{Lab.Demo.Gateway_HostAddress}}/api/orders/
+Accept: application/json
+
+###
+
+POST {{Lab.Demo.Gateway_HostAddress}}/api/products/
+Content-Type: application/json
+
+"Jakis produkt"
+
+###
+
+
+PUT {{Lab.Demo.Gateway_HostAddress}}/api/products/
+Content-Type: application/json
+
+###
+
+
+GET {{Lab.Demo.Gateway_HostAddress}}/api/faulty-service/
+Content-Type: application/json
+
+###

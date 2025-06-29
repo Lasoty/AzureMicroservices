@@ -1,0 +1,6 @@
+@Lab.Demo.FaultyService_HostAddress = http://localhost:5095
+
+GET {{Lab.Demo.FaultyService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
